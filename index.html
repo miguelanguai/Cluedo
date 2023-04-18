@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cluedo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark" >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="./images/logo.png" alt="Cluedo" width="100px"></a>
+          
+          <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="reglas.html">Reglas</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Personajes</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="amapola.html">Amapola</a></li>
+                  <li><a class="dropdown-item" href="#">Prado</a></li>
+                  <li><a class="dropdown-item" href="#">Rubio</a></li>
+                  <li><a class="dropdown-item" href="#">Profesor Bacterio</a></li>
+                </ul>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+         
+        </div>
+      </nav>
+
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner container mx-auto text-center" style="width: 50%;">
+          <div class="carousel-item active">
+            <img src="./images/caja.jpg" class="d-block w-100" alt="..." >
+          </div>
+          <div class="carousel-item">
+            <img src="./images/juego.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/caja-juego.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="card" style="width: 80%; margin:40px auto">
+        <div class="card-body" style="margin: 40px 0 40px 0;">
+          <h1 class="card-title">Historia</h1>
+          <p class="card-text">En una mansión en la campiña inglesa, se ha cometido un asesinato y todos los jugadores son sospechosos. Cada jugador debe moverse por el tablero y hacer preguntas para recopilar pistas y resolver el misterio. Pero ten cuidado, no todos dicen la verdad. Usa tu ingenio y habilidad para descubrir quién es el asesino. ¿Estás listo para aceptar el desafío de Cluedo?</p>
+        </div>
+      </div>
+      <div class="cards" style="width: 98%; text-align: center;">
+        <div class="card" style="width: 30%; display: inline-block; margin: 5px;">
+          <h5 class="card-title" style="padding-top:10px ;">Personajes</h5>
+          <img src="./images/personajes.png" class="card-img-top" alt="..." style="width: 95%;">
+          <div class="card-body">
+            <p class="card-text">Los sospechosos parecen todos personas nobles y pulcras, pero que su fachada no te deje engañar. Cualquiera puede ser el culpable.</p>
+            <a href="#" class="btn btn-primary">Personajes</a>
+          </div>
+        </div>
+        <div class="card" style="width: 30%;display: inline-block; margin: 5px;">
+          <h5 class="card-title" style="padding-top:10px ;">Armas</h5>
+          <img src="./images/armas.png" class="card-img-top" alt="..." style="width: 95%;">
+          <div class="card-body">
+            <p class="card-text">Ni Rambo sabría que una pluma puede servir para matar a alguien. Cuidado con ese folio. Cualquier objeto ha podido ser el arma.</p>
+            <a href="#" class="btn btn-primary">Armas</a>
+          </div>
+        </div>
+        <div class="card" style="width: 30%;display: inline-block; margin: 5px;">
+          <h5 class="card-title" style="padding-top:10px ;">Lugares</h5>
+          <img src="./images/lugares.png" class="card-img-top" alt="..." style="width: 95%;">
+          <div class="card-body">
+            <p class="card-text">Desde el lugar donde te lavas los dientes hasta donde te preparas un bocata. ¿Eso es una mancha de mermelada de tomate o no?</p>
+            <a href="#" class="btn btn-primary">Lugares</a>
+          </div>
+        </div>
+      </div>
+      
+
+
+      <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center     py-3 my-4 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh1">
+              <svg class="bi" width="30" height="24">
+                <use xlink:href="#bootstrap"/>
+              </svg>
+            </a>
+            <span class="text-muted">&copy; 2022 MiCasa</span>
+          </div>
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3">
+              <a class="text-muted" href="#">
+                <svg class="bi" width="24" height="24">
+                  <use xlink:href="#twitter"/>
+                </svg>
+              </a>
+            </li>
+            <li class="ms-3">
+              <a class="text-muted" href="#">
+                <svg class="bi" width="24" height="24">
+                  <use xlink:href="#instagram"/>
+                </svg>
+              </a>
+            </li>
+            <li class="ms-3">
+              <a class="text-muted" href="#">
+                <svg class="bi" width="24" height="24">
+                  <use xlink:href="#facebook"/>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </footer>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
